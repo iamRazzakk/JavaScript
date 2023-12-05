@@ -21,3 +21,4 @@ outPut:honest
 const goodPeople = 'kind';
 const goodPeople = 'honest';
 ![Alt text](../Var,%20Let%20and%20const/Screenshot%202023-12-05%20095803.png)
+
