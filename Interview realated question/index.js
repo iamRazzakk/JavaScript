@@ -1,15 +1,6 @@
 //1.  ________________remove falsy value from the array_____________________________________
 const miscellaneous = [
-  "🍎",
-  false,
-  "🍊",
-  NaN,
-  0,
-  undefined,
-  "🌶️",
-  null,
-  "",
-  "🥭",
+  "🍎",false,"🍊",NaN,0,undefined,"🌶️",null,"","🥭",
 ];
 const fruits = miscellaneous.filter(Boolean);
 console.log(fruits);
@@ -22,13 +13,13 @@ console.log(fruits);
 const name = "Md Abdur Razzak";
 const number = 10;
 const nothing = "";
-console.log(!!name);
+console.log(!!name, "my name");
 // First of all name is a string.when i need convert in boolean than use !! it.
-console.log(number);
-console.log(!number);
-console.log(!!number);
-console.log(!!0);
-console.log(!!undefined);
+// console.log(number);
+// console.log(!number);
+// console.log(!!number);
+// console.log(!!0);
+// console.log(!!undefined);
 // when i just console number than its show just 10.
 // when i use just one ! then its show me false.its means its not a number thats why.
 // and last when i use !! in number than its show true.
@@ -78,14 +69,12 @@ console.log(`library2 - ${library2}`);
 console.log({ library1 });
 console.log({ library2 });
 
-
 // 7.________________________________Know performance of a task__________________
 const startTime = performance.now();
-
 for (let i = 0; i <= 50; i++) {
   console.log(i);
 }
-
-const endTime = performance.now()
-const performanceTime = endTime - startTime
+const endTime = performance.now();
+const performanceTime = endTime - startTime;
 console.log(`loop look ${performanceTime} milliseconds to finish`);
+
