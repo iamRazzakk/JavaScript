@@ -255,3 +255,11 @@ The <progress> tag is used to represent the progress of a task or the completion
 **What is the purpose of the placeholder attribute in form elements?**
 
 The placeholder attribute is used to provide a hint or example value for a form input field. It is displayed in the field until the user enters their own value.
+ **What is the purpose of the download attribute in the <a> tag?**
+ The download attribute is used to specify that a hyperlink should be downloaded instead of navigated to when clicked. It specifies the filename of the downloaded file.
+ **What is the purpose of the <script> tag in HTML?**
+ The <script> tag is used to embed or reference JavaScript code within an HTML document.
+ **What is the difference between inline and external JavaScript?**
+ Inline JavaScript is directly embedded within the HTML document using the <script> tag, while external JavaScript is saved in a separate .js file and linked to the HTML document using the src attribute of the <script> tag.
+ **What is the purpose of the <details> and <summary> tags in HTML?**
+ The <details> tag is used to create a collapsible section that can be toggled open or closed. The <summary> tag is used to provide a summary or heading for the collapsible section.
