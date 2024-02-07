@@ -1,0 +1,265 @@
+# For interview.
+
+**What is HTML?**
+
+HTML stands for Hypertext Markup Language. It is the standard markup language used for creating web pages.
+
+**What are the basic building blocks of HTML?**
+
+Ans: The basic building blocks of HTML are tags, which are used to structure and define the content of a web page.
+
+**What is the DOCTYPE declaration in HTML?**
+
+Ans: The DOCTYPE declaration is used to specify the version of HTML that the web page is written in. It helps the browser render the page correctly.
+
+**What is the difference between HTML elements, tags, and attributes?**
+
+Ans: HTML elements are the individual components that make up a web page, such as headings, paragraphs, and images. Tags are used to mark the beginning and end of HTML elements. Attributes provide additional information or modify the behavior of HTML elements.
+
+tag: <> </> opening tag and closing tag.
+
+Elenment: 
+
+<h1>This is a heading element</h1>
+
+attributes: href=””
+
+**What are some common HTML tags?**
+
+Ans: 
+
+Some common HTML tags include <h1> to <h6> for headings, <p> for paragraphs,
+<a> for links, <img> for images, <ul> and <li> for unordered lists, and <table> for tables.
+
+**What is the purpose of the <head> tag in HTML?**
+
+The <head> tag is used to contain meta-information about the HTML document, such as the title, character encoding, and linked stylesheets or scripts.
+
+**What is the purpose of the <body> tag in HTML?**
+
+Ans: The <body> tag is used to define the main content of the HTML document that is displayed in the browser.
+
+**What is the difference between block-level elements and inline elements?**
+
+Block-level elements start on a new line and take up the full width available, while inline elements do not start on a new line and only take up the necessary width to display the content.
+
+Block level element: div, h1 to h6 , p, ul, li, ol,hr,blockqueat
+
+Inline element: span strong a em abbr br img code
+
+**What is the purpose of the <div> tag in HTML?**
+
+Ans: The <div> tag is a container used to group and style HTML elements. It is commonly used for layout and organization purposes.
+
+**What is the purpose of the <span> tag in HTML?**
+
+The <span> tag is an inline container used to apply styles or manipulate specific portions of text within a larger block of content.
+
+**What is the purpose of the <a> tag in HTML?**
+
+The <a> tag is used to create hyperlinks to other web pages, files, or locations within the same page.
+
+**What is the purpose of the href attribute in the <a> tag?**
+
+Ans: The href attribute specifies the URL or destination of the hyperlink.
+
+**What is the purpose of the <img> tag in HTML?**
+
+Ans: The <img> tag is used to display images on a web page.
+
+**What is the purpose of the src attribute in the <img> tag?**
+
+Ans: The src attribute specifies the source file or URL of the image.
+
+**What is the purpose of the <table> tag in HTML?**
+
+Ans: The <table> tag is used to create tabular data with rows and columns.
+
+**What are the <thead>, <tbody>, and <tfoot> tags used for?**
+
+Ans: The <thead> tag is used to group the header content in a table. The <tbody> tag is used to group the body content, and the <tfoot> tag is used to group the footer content.
+
+**What is the purpose of the <tr> tagin HTML?**
+
+Ans: The <tr> tag is used to define a row in a table.
+
+**What is the purpose of the <th> and <td> tags in HTML?**
+
+Ans: The <th> tag is used to define a header cell in a table, while the <td> tag is used to define a data cell.
+
+**What is the purpose of the colspan and rowspan attributes in the <td> and <th> tags?**
+
+The colspan attribute specifies the number of columns a cell should span, and the rowspan attribute specifies the number of rows a cell should span.
+
+**What is the purpose of the <form> tag in HTML?**
+
+The <form> tag is used to create an interactive form on a web page to collect user input.
+
+**What are some commonly used form elements in HTML?**
+
+Some commonly used form elements include <input> for text input, checkboxes, and radio buttons, <select> for dropdown lists, and <textarea> for multiline text input.
+
+**What is the purpose of the name attribute in form elements?**
+
+The name attribute is used to identify form elements and is used to retrieve their values on the server side.
+
+**What is the purpose of the method attribute in the <form> tag?**
+
+The method attribute specifies the HTTP method used to send form data to the server. The most common values are "GET" and "POST".
+
+**What is the purpose of the action attribute in the <form> tag?**
+
+The action attribute specifies the URL or destination where the form data should be sent.
+
+**What is the purpose of the <input> tag in HTML?**
+
+The <input> tag is used to create various types of form input fields, such as text fields, checkboxes, radio buttons, and submit buttons.
+
+**What is the purpose of the type attribute in the <input> tag?**
+
+The type attribute specifies the type of input field to be created, such as "text", "checkbox", "radio", "submit", etc.
+
+**What is the purpose of the <label> tag in HTML?**
+
+The <label> tag is used to associate a text label with a form element. It improves accessibility and allows users to click on the label to activate the associated form element.
+
+**What is the purpose of the <select> tag in HTML?**
+
+The <select> tag is used to create a dropdown list of options for users to choose from.
+
+**What is the purpose of the <option> tag in the <select> tag?**
+
+he <option> tag is used to define an option within a dropdown list.
+
+**What is the purpose of the value attribute in the <option> tag?**
+
+The value attribute specifies the value associated with an option. It is sent to the server when the form is submitted.
+
+**What is the purpose of the <textarea> tag in HTML?**
+
+The <textarea> tag is used to create a multiline text input field where users can enter larger blocks of text.
+
+**What is the purpose of the <iframe> tag in HTML?**
+
+The <iframe> tag is used to embed another web page or document within the current HTML document.
+
+**What is the purpose of the <audio> and <video> tags in HTML?**
+
+The <audio> tag is used to embed audio content on a web page, and the <video> tag is used to embed video content. They provide built-in controls for playing and pausing the media.
+
+**What is the purpose of the <canvas> tag in HTML?**
+
+The <canvas> tag is used to draw graphics, animations, and other visualizations on a web page using JavaScript.
+
+**What is the purpose of the <header>, <main>, <footer>, and <nav> tags in HTML?**
+
+The <header> tag is used to define the header section of a web page. The <main> tag is used to define the main content area. The <footer> tag is used to define the footer section, and the <nav> tag is used to define the navigation section.
+
+**What is the purpose of the <article> and <section> tags in HTML?**
+
+The <article> tag is used to define an independent, self-contained content section that can be distributed and reused. The <section> tag is used to define a section of related content within an HTML document.
+
+**What is the purpose of the <aside> tag in HTML?**
+
+The <aside> tag is used to define content that is related to the main content but can be considered separate from it, such as sidebars or pull-out quotes.
+
+**What is the purpose of the <figure> and <figcaption> tags in HTML?**
+
+The <figure> tag is used to encapsulate self-contained content, such as images, diagrams, or videos, along with an optional caption defined using the <figcaption> tag.
+
+**What is semantic HTML?**
+
+Semantic HTML is the practice of using HTML elements that accurately describe the meaning or purpose of the content they contain. It improves accessibility, search engine optimization, and code readability.
+
+**What are the advantages of using external CSS stylesheets?**
+
+Some advantages of using external CSS stylesheets include easier maintenance, consistent styling across multiple pages, better separation of concerns (HTML for structure, CSS for presentation), and faster page loading times due to browser caching.
+
+**What is the purpose of the class attribute in HTML?**
+
+The class attribute is used to assign one or more class names to an HTML element. It allows for targeted styling and JavaScript manipulation.
+
+**What is the purpose of the id attribute in HTML?**
+
+The id attribute is used to assign a unique identifier to an HTML element. It is used for targeting specific elements with CSS or JavaScript.
+
+**What is the purpose of the CSS display property?**
+
+The display property is used to control how an element is rendered and displayed in the browser. It can change an element's behavior from block to inline, or vice versa.
+
+**What is the purpose of the CSS position property?**
+
+The position property is used to specify the positioning method of an element on the web page. It can be set to static, relative, absolute, or fixed.
+
+**What is the purpose of the CSS float property?**
+
+The float property is used to align an element to theleft or right of its container, allowing other content to wrap around it.
+
+**What is the purpose of the CSS box-sizing property?**
+
+The box-sizing property is used to control how the width and height of an element are calculated. It can be set to content-box (default) or border-box.
+
+**What is the purpose of the CSS flexbox layout?**
+
+The CSS flexbox layout is a flexible box layout model that allows you to create responsive and flexible layouts. It provides powerful tools for arranging and aligning elements within a container.
+
+**What is the purpose of the CSS grid layout?**
+
+The CSS grid layout is a two-dimensional layout model that allows you to create complex grid-based layouts. It provides precise control over the positioning and alignment of elements.
+
+**What is the purpose of the <meta> tag in HTML?**
+
+The <meta> tag is used to provide metadata about an HTML document, such as the character encoding, viewport settings, or author information.
+
+**What is the purpose of the viewport meta tag in HTML?**
+
+The viewport meta tag is used to control the width and scaling of the viewport on mobile devices. It ensures that web pages are displayed correctly and responsively on different screen sizes.
+
+**What is the purpose of the alt attribute in the <img> tag?**
+
+The alt attribute is used to provide alternative text for an image. It is displayed if the image cannot be loaded or for accessibility purposes.
+
+**What is the purpose of the title attribute in HTML?**
+
+The title attribute is used to provide additional information or a tooltip text for an element. It is displayed when the user hovers over the element.
+
+**What is the purpose of the <fieldset> and <legend> tags in HTML?**
+
+The <fieldset> tag is used to group related form elements together, and the
+<legend> tag is used to provide a caption or description for the <fieldset>.
+
+**What is the purpose of the <time> tag in HTML?**
+
+The <time> tag is used to represent a specific time or date. It can be used for machine-readable dates, event schedules, or time-related content.
+
+**What is the purpose of the required attribute in form elements?**
+
+The required attribute is used to specify that a form input field must be filled out before submitting the form.
+
+**What is the purpose of the autocomplete attribute in form elements?**
+
+The autocomplete attribute is used to control whether a form input field should have autocomplete suggestions or not.
+
+**What is the purpose of the <nav> tag in HTML?**
+
+The <nav> tag is used to define a section of a web page that contains navigation links.
+
+**What is the purpose of the <abbr> tag in HTML?**
+
+The <abbr> tag is used to define an abbreviation or acronym. It can provide additional information when the user hovers over it.
+
+**What is the purpose of the <progress> tag in HTML?**
+
+The <progress> tag is used to represent the progress of a task or the completion of a process, such as a file upload or a download.
+
+**What is the purpose of the placeholder attribute in form elements?**
+
+The placeholder attribute is used to provide a hint or example value for a form input field. It is displayed in the field until the user enters their own value.
+ **What is the purpose of the download attribute in the <a> tag?**
+ The download attribute is used to specify that a hyperlink should be downloaded instead of navigated to when clicked. It specifies the filename of the downloaded file.
+ **What is the purpose of the <script> tag in HTML?**
+ The <script> tag is used to embed or reference JavaScript code within an HTML document.
+ **What is the difference between inline and external JavaScript?**
+ Inline JavaScript is directly embedded within the HTML document using the <script> tag, while external JavaScript is saved in a separate .js file and linked to the HTML document using the src attribute of the <script> tag.
+ **What is the purpose of the <details> and <summary> tags in HTML?**
+ The <details> tag is used to create a collapsible section that can be toggled open or closed. The <summary> tag is used to provide a summary or heading for the collapsible section.
