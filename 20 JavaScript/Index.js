@@ -23,3 +23,7 @@ const largeNumber = (arr) => {
   return Math.max(...arr);
 };
 console.log(largeNumber([1, 2, 3, 4, 9, 10, 15, 1, 0]));
+
+// Another large number find
+const anotherLargeNumber = (arr) => Math.max(...arr);
+console.log(anotherLargeNumber([1, 2, 3, 4, 9, 10, 15, 1, 0]));
