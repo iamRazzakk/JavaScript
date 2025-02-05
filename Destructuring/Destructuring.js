@@ -113,6 +113,24 @@ orderFnc(order)
 
 const orderFnc2 = (order) => {
     const { customer: { name }, items: [{ name: deviceName }] } = order
-    console.log(name, deviceName);
+    // console.log(name, deviceName);
 }
 orderFnc2(order)
+
+
+
+// * another problem 
+const data = {
+    id: 1001,
+    category: "Tech",
+    tags: ["JavaScript", "React", "Node.js", "MongoDB", "Next.js"]
+};
+
+// 🚀 Task:
+// 1️⃣ "category" destructure kore print koro
+// 2️⃣ "tags" theke prothom 2 ta alada koro, baki gula ekta array te rakho
+const { category } = data
+// console.log(category);
+const { tags: [firstTech, secondTech, ...anotherTag] } = data
+console.log(firstTech, secondTech);
+console.log(anotherTag);
