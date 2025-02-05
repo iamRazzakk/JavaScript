@@ -61,5 +61,32 @@ let a = 5, b = 10;
 // 🚀 Task: Destructuring use kore a & b swap koro, kono extra variable use kora jabe na
 
 [a, b] = [b, a]
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
+
+
+// ** Problem six
+
+const company = {
+    name: "Spack Tech",
+    employees: [
+        { id: 1, name: "Rakib", role: "Backend Developer", skills: ["Node.js", "Express", "MongoDB"] },
+        { id: 2, name: "John", role: "Frontend Developer", skills: ["React", "Next.js", "TypeScript"] }
+    ],
+    location: {
+        city: "Dhaka",
+        country: "Bangladesh"
+    }
+};
+
+// 🚀 Task:
+// 1️⃣ 1st employee'r name, role & skills destructure kore print koro
+// 2️⃣ 2nd employee'r "skills" theke first skill alada kore print koro
+// 3️⃣ "location" theke "city" destructure kore print koro
+const { employees: [{ name, role, skills }] } = company
+
+const { employees: [, { skills: [FirstSkill] }] } = company
+const { location: { city } } = company;
+console.log(name, role, skills);
+console.log(FirstSkill);
+console.log(city);
