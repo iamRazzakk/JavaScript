@@ -55,4 +55,11 @@ const settings = {
 // 🚀 Task: "mode" destructure koro, jodi thake tahole niye nao, na thakle "default mode" set koro
 const { mode } = settings
 const finalMode = mode ? mode : "Default mode"
-console.log(finalMode);
+// console.log(finalMode);
+//  ** problem Five
+let a = 5, b = 10;
+// 🚀 Task: Destructuring use kore a & b swap koro, kono extra variable use kora jabe na
+
+[a, b] = [b, a]
+console.log(a);
+console.log(b);
