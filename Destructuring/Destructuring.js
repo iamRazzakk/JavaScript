@@ -18,5 +18,21 @@ const user = {
 const { address: { geo: { lat, lng } } } = user
 // console.log(lat, lng);
 
+// ** Problem Two
+const product = {
+    id: 101,
+    title: "MERN Stack Course",
+    price: 4999,
+    details: {
+        instructor: "Rakib",
+        duration: "3 months"
+    }
+};
 
+// 🚀 Task: "details" theke "instructor" destructure kore function e use koro
 
+const { details: { instructor } } = product
+const myFnc = (instructor) => {
+    console.log(instructor);
+}
+myFnc(instructor)
