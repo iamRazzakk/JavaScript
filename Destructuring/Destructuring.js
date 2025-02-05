@@ -132,5 +132,23 @@ const data = {
 const { category } = data
 // console.log(category);
 const { tags: [firstTech, secondTech, ...anotherTag] } = data
-console.log(firstTech, secondTech);
-console.log(anotherTag);
+// console.log(firstTech, secondTech);
+// console.log(anotherTag);
+
+
+
+function getUserInfo() {
+    return {
+        username: "rakib_dev",
+        email: "rakib@example.com",
+        social: {
+            github: "rakibgithub",
+            twitter: "rakibtwitter"
+        }
+    };
+}
+
+// 🚀 Task:
+// 1️⃣ Function call kore destructuring use kore "username" and "github" alada koro  
+const { username, social: { github } } = getUserInfo()
+console.log(username, github);
