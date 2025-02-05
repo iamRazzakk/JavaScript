@@ -151,4 +151,24 @@ function getUserInfo() {
 // 🚀 Task:
 // 1️⃣ Function call kore destructuring use kore "username" and "github" alada koro  
 const { username, social: { github } } = getUserInfo()
-console.log(username, github);
+// console.log(username, github);
+
+
+const userProfile = {
+    username: "rakibdev",
+    profile: {
+        bio: "MERN Stack Developer",
+        social: {
+            linkedin: "rakib-linkedin"
+        }
+    }
+};
+
+// 🚀 Task:
+// 1️⃣ "bio" destructure kore print koro  
+// 2️⃣ "twitter" destructure koro, jodi na thake tahole default value "Not Provided" set koro  
+const { profile: { bio } } = userProfile;
+console.log(bio);
+const { profile: { social: { twitter } } } = userProfile;
+const twitterHandler = twitter ? twitter : "Not Provided"
+console.log(twitterHandler);
