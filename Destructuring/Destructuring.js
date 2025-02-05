@@ -36,3 +36,12 @@ const myFnc = (instructor) => {
     console.log(instructor);
 }
 myFnc(instructor)
+
+
+
+// ** Problem three
+const scores = [85, 90, 78, 92, 88, 76, 95];
+
+// 🚀 Task: Prothom 2 ta score alada kore destructure koro, baki gula ekta array te rekhe print koro
+const [firstOne, secondOne, ...total] = scores
+console.log(firstOne, secondOne, total);
