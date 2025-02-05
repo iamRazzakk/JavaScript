@@ -33,7 +33,7 @@ const product = {
 
 const { details: { instructor } } = product
 const myFnc = (instructor) => {
-    console.log(instructor);
+    // console.log(instructor);
 }
 myFnc(instructor)
 
@@ -44,4 +44,15 @@ const scores = [85, 90, 78, 92, 88, 76, 95];
 
 // 🚀 Task: Prothom 2 ta score alada kore destructure koro, baki gula ekta array te rekhe print koro
 const [firstOne, secondOne, ...total] = scores
-console.log(firstOne, secondOne, total);
+// console.log(firstOne, secondOne, total);
+
+// ** Problem Four
+const settings = {
+    theme: "dark",
+    language: "en"
+};
+
+// 🚀 Task: "mode" destructure koro, jodi thake tahole niye nao, na thakle "default mode" set koro
+const { mode } = settings
+const finalMode = mode ? mode : "Default mode"
+console.log(finalMode);
