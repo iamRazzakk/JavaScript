@@ -87,6 +87,32 @@ const { employees: [{ name, role, skills }] } = company
 
 const { employees: [, { skills: [FirstSkill] }] } = company
 const { location: { city } } = company;
-console.log(name, role, skills);
-console.log(FirstSkill);
-console.log(city);
+// console.log(name, role, skills);
+// console.log(FirstSkill);
+// console.log(city);
+
+const order = {
+    id: 2025,
+    customer: {
+        name: "Rakib",
+        email: "rakib@example.com"
+    },
+    items: [
+        { name: "Laptop", price: 85000 },
+        { name: "Keyboard", price: 5000 }
+    ]
+};
+
+// 🚀 Task: 
+// 1️⃣ Function likho jehetu order object nibe  
+// 2️⃣ Function e destructuring use kore "customer name" and "first item name" print koro  
+const orderFnc = (order) => {
+    // console.log(order);
+}
+orderFnc(order)
+
+const orderFnc2 = (order) => {
+    const { customer: { name }, items: [{ name: deviceName }] } = order
+    console.log(name, deviceName);
+}
+orderFnc2(order)
