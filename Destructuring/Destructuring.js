@@ -14,9 +14,8 @@ const user = {
 };
 
 // 🚀 Task: "geo" theke "lat" and "lng" destructure kore print koro
-
 const { address: { geo: { lat, lng } } } = user
-// console.log(lat, lng);
+console.log(lat, lng);
 
 // ** Problem Two
 const product = {
