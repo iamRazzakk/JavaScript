@@ -26,3 +26,17 @@ globalFunction();
 
     blockFunction();
 }
+
+
+
+// scope chain
+
+const outerFunction = () => {
+    const outerVariable = "Hello, I'm outer variable";
+
+    const innerFunction = () => {
+        console.log(outerVariable);
+    }
+
+    innerFunction();
+}
