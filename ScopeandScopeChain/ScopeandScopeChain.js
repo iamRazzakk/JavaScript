@@ -3,3 +3,26 @@
 
 // !! if have under the {} it's call block scope
 
+
+
+const globalVariable = "Hello, I'm global variable";
+
+function globalFunction() {
+    console.log(globalVariable);
+}
+
+globalFunction();
+
+
+
+// block scope
+
+{
+    let blockVariable = "Hello, I'm block variable";
+
+    const blockFunction = () => {
+        console.log(blockVariable);
+    }
+
+    blockFunction();
+}
