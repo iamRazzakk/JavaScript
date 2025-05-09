@@ -12,12 +12,20 @@
 //  what is array ?
 // Ans: Array is linear DS which stores multiple value in a continuous manner
 
-// linear means ------- one by one 
+// linear means ------- one by one
 
+let arr = [10, 20, 30, 40, 80, 50, 60];
+// let sum = 0
+// for (let i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i]
+// }
+// console.log(sum);
 
-let arr = [10, 20, 30, 40, 50, 60]
-let sum = 0
+let max = 0;
 for (let i = 0; i < arr.length; i++) {
-    sum = sum + arr[i]
+  if (max < arr[i]) {
+    max = arr[i];
+  }
 }
-console.log(sum);
+
+console.log(max);
