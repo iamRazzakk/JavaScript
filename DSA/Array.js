@@ -1,4 +1,5 @@
-let arr = []
+// let arr = []
+let arr = new Array(5)
 arr.push(100)
 arr.push(90)
 console.log(arr[0]);
