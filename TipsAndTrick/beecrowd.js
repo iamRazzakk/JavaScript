@@ -21,4 +21,13 @@ console.log(result.toFixed(1))
 // ! Read four integer values named A, B, C and D. Calculate and print the difference of product A and B by the product of C and D (A * B - C * D).
 
 
-// var input 
+var input = "5.0\n6.0\n7.0\n8.0";
+var lines = input.split("\n");
+const number = parseFloat(lines[0])
+const numberTwo = parseFloat(lines[1])
+const numberThree = parseFloat(lines[2])
+const numberFour = parseFloat(lines[3])
+
+
+const result = (number * numberTwo)-(numberThree * numberFour)
+console.log(`DIFERENCA = ${result}`)
