@@ -28,4 +28,42 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 
-console.log(max);
+// console.log(max);
+
+// TODO: Find the second largest number in an array
+const anArray = [10, 43, 32, 56, 23];
+// const secondLargestNumber = (arr) => {
+//   const uniqueArray = Array.from(new Set(arr)); //*O(n)
+//   // console.log("unique array", uniqueArray);
+//   uniqueArray.sort((firstNumber, secondNumber) => {
+//     //*O(nlogn)
+//     return secondNumber - firstNumber;
+//   });
+//   if (uniqueArray.length >= 2) {
+//     return uniqueArray[1];
+//   } else {
+//     return -1;
+//   }
+// };
+// console.log(secondLargestNumber(anArray));
+
+const secondLargestOptimized = (arr) => {
+  if (arr.length < 2) {
+    return console.error("It's not more than 2 word");
+  }
+  let firstNumber = Number.NEGATIVE_INFINITY;
+  let secNumber = Number.NEGATIVE_INFINITY;
+  for (let i = 0; i < arr.length; i++) {
+    console.log("number", arr[i]);
+    if (arr[i] > firstNumber) {
+      console.log("First number", arr[i]);
+      secNumber = firstNumber;
+      console.log("sec number", secNumber);
+      firstNumber = arr[i];
+    } else if (arr[i] != firstNumber && arr[i] > secNumber) {
+      secNumber = firstNumber;
+    }
+  }
+  return secNumber;
+};
+console.log(secondLargestOptimized(anArray));
