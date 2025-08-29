@@ -15,9 +15,9 @@
 // linear means ------- one by one
 
 let arr = [10, 20, 30, 40, 80, 50, 60];
-let sum = 0
+let sum = 0;
 for (let i = 0; i < arr.length; i++) {
-    sum = sum + arr[i]
+  sum = sum + arr[i];
 }
 // console.log(sum);
 
@@ -53,14 +53,27 @@ const secondLargestOptimized = (arr) => {
   }
   let firstNumber = Number.NEGATIVE_INFINITY;
   let secNumber = Number.NEGATIVE_INFINITY;
-  for (let i = 0; i < arr.length; i++) {
-    console.log("number", arr[i]);
-    if (arr[i] > firstNumber) {
-      console.log("First number", arr[i]);
+  // for (let i = 0; i < arr.length; i++) {
+  //   console.log("number", arr[i]);
+  //   if (arr[i] > firstNumber) {
+  //     console.log("First number", arr[i]);
+  //     secNumber = firstNumber;
+  //     console.log("sec number", secNumber);
+  //     firstNumber = arr[i];
+  //   } else if (arr[i] != firstNumber && arr[i] > secNumber) {
+  //     secNumber = firstNumber;
+  //   }
+  // }
+  // return secNumber;
+  for (let items of arr) {
+    if (items > firstNumber) {
+      console.log("item", items);
+      console.log("first", firstNumber);
       secNumber = firstNumber;
-      console.log("sec number", secNumber);
-      firstNumber = arr[i];
-    } else if (arr[i] != firstNumber && arr[i] > secNumber) {
+      console.log("sec", secNumber);
+      firstNumber = items;
+      console.log("Again first", firstNumber);
+    } else if (items != firstNumber && items > secNumber) {
       secNumber = firstNumber;
     }
   }
