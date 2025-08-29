@@ -15,10 +15,10 @@
 // linear means ------- one by one
 
 let arr = [10, 20, 30, 40, 80, 50, 60];
-// let sum = 0
-// for (let i = 0; i < arr.length; i++) {
-//     sum = sum + arr[i]
-// }
+let sum = 0
+for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i]
+}
 // console.log(sum);
 
 let max = 0;
@@ -32,19 +32,19 @@ for (let i = 0; i < arr.length; i++) {
 
 // TODO: Find the second largest number in an array
 const anArray = [10, 43, 32, 56, 23];
-// const secondLargestNumber = (arr) => {
-//   const uniqueArray = Array.from(new Set(arr)); //*O(n)
-//   // console.log("unique array", uniqueArray);
-//   uniqueArray.sort((firstNumber, secondNumber) => {
-//     //*O(nlogn)
-//     return secondNumber - firstNumber;
-//   });
-//   if (uniqueArray.length >= 2) {
-//     return uniqueArray[1];
-//   } else {
-//     return -1;
-//   }
-// };
+const secondLargestNumber = (arr) => {
+  const uniqueArray = Array.from(new Set(arr)); //*O(n)
+  // console.log("unique array", uniqueArray);
+  uniqueArray.sort((firstNumber, secondNumber) => {
+    //*O(nlogn)
+    return secondNumber - firstNumber;
+  });
+  if (uniqueArray.length >= 2) {
+    return uniqueArray[1];
+  } else {
+    return -1;
+  }
+};
 // console.log(secondLargestNumber(anArray));
 
 const secondLargestOptimized = (arr) => {
